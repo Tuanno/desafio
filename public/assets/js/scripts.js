@@ -27,6 +27,10 @@ function getAboutUs(){
 }
 
 // Services
-
+function getServicesUs(){
+  fetch('https://www.mdsystemweb.com.br/projects/api/v1/test/services.php')
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+}
 
 

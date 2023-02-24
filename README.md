@@ -1,59 +1,14 @@
-# Quer ser desenvolvedor frontend na MDsystem Web?
-Criamos este teste para avaliar seus conhecimentos e habilidades frontend (HTML, CSS e JavaScript).
+# Desafio FrontEnd
+Desafio criado para avaliar os conhecimentos e habilidades frontend (HTML, CSS e JAVASCRIPT).
 
 ## O teste
-O desafio é tornar o layout abaixo em uma página funcional. 
-Não existe certo ou errado, queremos ver como você se sai em situações reais, como este desafio.
-O tempo necessário para completar o desafio é de 3 dias após o envio do e-mail.
-
-Portanto, dê o seu melhor!
-
-:warning: **OBS:** Os layouts podem ser encontrados na pasta **layout**
-
-![Layout](layout/desktop.png)
+Foi construido segundo orientações para o teste, uma landingpage para avaliar os conhecimentos
+com relação a aplicação e habilidades de frontend. Foram utilizadas as seguintes tecnologias:
+HTML, CSS, JAVASCRIPT. Onde, foi utilizado o Html e Css para criação da página e o javascrit,
+para criação de função para puxar os dados da API que foi disponibilizada.
 
 ## Instruções
-- O conteúdo não é estático. Você deve criar um JavaScript para consultar as informações de sobre nós e serviços.
-- URL API
-    - API Serviços: https://www.mdsystemweb.com.br/projects/api/v1/test/services.php
-    - API About: https://www.mdsystemweb.com.br/projects/api/v1/test/about.php
-- Fonte padrão: "Poppins".
-- No JavaScript usar (JavaScript, jQuery, ou react.js).
-- No CSS usar (Flex box).
-- Crie uma documentação simples comentando sobre as tecnologias e soluções adotadas.
-- Se necessário explique também como rodar o seu projeto.
-- Realize o desenvolvimento dentro da pasta public
+Para rodar o projeto é bem simples, como foi feito com base em Html e Css basta acessar no 
+projeto a pasta public, e dentro dela procurar o arquivo chamado index.html e clicar duas vezes
+sobre ele. Irá abrir a página web diretamente em seu navegador de preferencia. Podendo assim ser acessado e página inicial que foi criada.
 
-## Requisitos
-- Design responsivo nos breakpoints 320px, 768px, 1024px e 1440px
-- Suporte para IE, Chrome, Safari, Firefox
-
-## Diferenciais
-- Uso de pré-processadores CSS (Sass, Less)
-- Utilizar alguma automatização (Grunt, Gulp, ...)
-
-## O que será avaliado
-- Estrutura e organização do código e dos arquivos
-- Soluções adotadas
-- Tecnologias utilizadas
-- Qualidade
-- Fidelidade ao layout
-- Enfim, tudo será observado e levado em conta
-
-## Como iniciar o desenvolvimento
-- Instale o [npm](https://nodejs.org/en/download/)
-- Fork este repositório na sua conta do Bitbucket
-- Crie uma branch com o nome **desafio**
-- Instale as dependências
-```
-npm install
-```
-- Rode a aplicação
-```
-npm start
-```
-- Acesse http://localhost:8888
-
-## Como enviar seu teste
-- Envie um email para [diogo.alves@mdsystemweb.com.br] com o link do seu repositório
-- Se o seu repositório for privado, solicite os emails das pessoas responsáveis para conceder acesso de leitura ao seu repositório.
