@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>teste</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <div class="wrapper-nav">
+            <h2>Logo</h2>
+            <nav>
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contatos</a>
+            </nav>
+        </div>
+        
+        <button class="button-menu-mobile" onclick="showMenu()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark closeMenuIcon"></i>
+        </button>
+        
+        <div class="menu-mobile">
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contatos</a>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Olá, nós somos a Mdsystem web!</h1>
+            <p>Damos vida aos seus negócios digitais</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre nós</h2>
+            <div>
+                <div class="header">
+                    <button onclick="getAboutUs()">Missão</button>
+                    <a href="">Visão</a>
+                    <a href="">Valores</a> 
+                </div>
+                <p id="resposta"></p>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <div class="wrapper-services">
+                <div class="services">
+                    <button><i class="fa-solid fa-angle-left"></i></button>
+                    <p><span>Webdesigner. </span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. t, amet consectetur adipisicing elit.t, amet consectetur adipisicing elit.</p>
+                    <button><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contato">
+        <h2>Contato</h2>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
